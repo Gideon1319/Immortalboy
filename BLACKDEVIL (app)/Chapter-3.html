@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probem solving and Python programming [Chapter-3]</title>
+</head>
+<body>
+    <center><a href="index.html"><h2>===> HOME <===</h2></a></center>
+    <h1><b><i><u><font color="blue"><center>Chapter-3 <br>"Control flow, Function, Strings."</center></font></u></i></b></h1>
+    <h1><b><i><u><font color="green"><center>"Operators"</center></font></u></i></b></h1>
+    An operator is a symbol that represents an operation that may be performed on one or more operands.<br>
+    <b><ul>Types :<br>
+    <ul>1. Unary Operators.<br>
+        2. Binary Operators</ul></b>
+    <br>
+    <i><u><b>1. Unary operators : </b></u></i>
+    It operate on only one opreand and provide their single operand.<br>
+    <img src="py13.PNG" width="90%" height="60%"><br>
+    <br>
+    <i><u><b>2. Binary Operator : </b></u></i>
+    The operators operate on two operands.<br>
+    <ul>i. Arithmetic operator.<Br>
+        ii. Relational (comparision) operator.<br>
+        iii. Assignment operator.<br>
+        iv. Logical operator.<br>
+        v. Bitwise operator.<br>
+        vi. Special operator.<br>
+        <ul>---->Membership.<br>
+            ---->Identify.</ul>
+    </ul>
+    <i><u><b>====> i. Arithmetic Operator : <br></b></u></i>
+    <br>
+    Arithmetic operator are used to perform operator like addition, subtraction, multiplication.<br>
+    <br>
+    <img src="py14.PNG" width="90%" height="90%">
+    <br>
+    <i><u><b>====> ii. Relational Operator : </b></u></i><br>
+    <br>
+    Evaluate the compare value an either side of the expression and it returns true or false.<br>
+    <br>
+    <img src="py15.PNG" width="90%" height="90%">
+    <br>
+    <i><u><b>====> iii. Assignment Operator : </b></u></i><br>
+    <br>
+    It is used to assign the values of expression of the variables.<br>
+    <br>
+    <img src="py17.PNG" height="90%" width="90%">
+    <br>
+    <i><u><b>====> iv. Logical Operator : </b></u></i><br>
+    <br>
+    It combaines two or more condition and perform the logical operations using the logical, and logical, or logical, not logical.<br>
+    <br>
+    <img src="py18.PNG" width="90%" height="90%">
+    <bR>
+    <i><u><b>====> v. Bitwise Operator : </b></u></i><br>
+    <br>
+    Bitwise operators works with bits of a binary number it operators bit by bit.<br>
+    <br>
+    <img src="py16.PNG" width="90%" height="90%">
+    <br>
+    <i><u><b>====> vi. Special Operator : </b></u></i><br>
+    <br>
+    <b>Membership : </b> It is used to test whether a value or variable is found is a sequance string,list,tuple,set dictionary is not in are the membership operators.<br>
+    <br>
+    <img src="py19.PNG" width="90%" height="80%">
+    <br>
+    <b>E.g :</b><br>
+    <ul>>>>x="Hello World"<br>
+        >>>y={1,a,2,b}<br>
+        >>>print('W' in x)<br>
+        <ul><b>True</b><bR>
+        >>>print('n not in x')<br>
+        <ul><b>True</b></ul>
+    </ul></ul>
+    <b>Identity Operator : </b> Identity Operator are used to determine whether the value of variable is of a certain tuple or not, is and, is not are the identity operators.<br>
+    <br>
+    <img src="py20.PNG" width="90%" height="80%">
+    <br>
+    <b>E.g :<br></b>
+    <ul>X1=5<br>
+        Y2=10<br>
+        print(X1 is Y2)<br>
+        <ul><b>False<br></b></ul>
+        print(X1 is not Y2)<br>
+        <ul><b>True<br></b></ul>
+    </ul>
+    <h2><i><u>Conditional Statement [Branching]</u></i></h2><br>
+    ====>*It is needed to check the conditional and change the behavior of the program accordingly.<Br>
+    ====>*Conditional Statement allows executing Statement selectively based on certain decisions.<Br>
+    ====>*Python language supports different types of conditions branching statements. They are,<br>
+    <ul>i. <b>Conditional Execution (if)</b><br>
+        ii. <b>Alternative Execution (if-else)</b><br>
+        iii. <b>Chained Conditional Execution (if-elif-else)</b><br>
+        iv. <b>Nested Conditional<br></b>
+    </ul>
+    <p1>
+        <b><i><u>1. Conditional Execution (if)</u></i></b><br>
+        <br>
+        ====> It is used to test a condition, the condition is true the statement executed otherwise exit.<br>
+        <br>
+        <b>Syntax :<br></b>
+        <br>
+        <center><img src="s1.PNG" width="50%" height="50%"></center>
+        <br>
+        <b>Flow Chart :<br></b>
+        <br>
+        <center><img src="f1.PNG" width="70%" height="80%"></center>
+        <br>
+        <b>E.g :<br></b>
+        n=int(input("enter a number"))<br>
+        if(n>a)<br>
+        <ul>print(n,"is positive number")</ul><br>
+        <b>O/P==> Enter a number 3</b><br>
+        <br>
+        <b><i><u>2. Alternative Execution (if-else)<br></u></i></b>
+        <br>
+        ====> It is used to check the condition, if the condition is true then the statement will be printed, else the statement executed.<br>
+        <br>
+        <b>Syntax : </b><br>
+        <br>
+        <center><img src="s2.PNG" width="50%" height="50%"></center>
+        <br>
+        <b>Flow Chart :<br></b>
+        <br>
+        <center><img src="f2.PNG" width="70%" height="80%"></center>
+        <br>
+        <b>E.g :<br></b>
+        num=int(input("enter a number"))<br>
+        if num % 2 == 0:</br>
+        <ul>print("number is even")</ul><br>
+        else:<br>
+        <ul>print("number is odd")<br></ul>
+        <br>
+        <b>O/P==> Enter a number 8<br>
+           number is even<br>
+           ==> Enter a number 9<br>
+           number is odd<br>
+        </b>
+        <br>
+        <b><i><u>3. change Conditional Execution (if-elif-else)<br></u></i></b>
+        <br>
+        ====>*It is used to check more than one condition.<br>
+        ====>*If the condition one is false, it check the condition two of the elif block.<br>
+        ====>*If all condition are false then the else path is executed.<br>
+        <br>
+        <b>Syntax : <br></b>
+        <br>
+        <center><img src="s3.PNG" width="50%" height="50%"></center>
+        <br>
+        <b>Flow Chart :<br></b>
+        <br>
+        <center><img src="f3.PNG" width="70%" height="80%"></center>
+        <br>
+        <b>E.g :<br>
+        mark=int(input("Enter your mark"))<br>
+        if(mark>=90):<br>
+        <ul>print("A grade")</ul><br>
+        elif(mark>=80):<br>
+        <ul>print("B grade")</ul><br>
+        elif(mark>=50):<br>
+        <ul>print("pass")</ul><br>
+        else:<br>
+        <ul>print("fail")</ul><br></b>
+        <br>
+        <b><i><u>4. Nested Conditional<br></u></i></b>
+        <br>
+        ====>*Any number of conditions can be nested inside one another.<br>
+        ====>*If the condition 1 is true it checks another. if condition 2, if both conditions true statement 1 executed otherwise statement 2 executed. It condition 1 is false statement 3 executed.<br>
+        <br>
+        <b>Syntax : <br></b>
+        <br>
+        <center><img src="s4.PNG" width="50%" height="50%"></center>
+        <br>
+        <b>Flow Chart :<br></b>
+        <br>
+        <center><img src="f4.PNG" width="70%" height="80%"></center>
+        <br>
+        <b>E.g :</b><br>
+        a=int(input("Enter a value"))<br>
+        b=int(input("Enter a value"))<br>
+        c=int(input("Enter a value"))<br>
+        if(a>b):<br>
+        <ul>if(a>c):</ul>
+        <ul><ul>print("a is greatest")</ul></ul>
+        <ul>else:<br></ul>
+        <ul><ul>print("c is greatest")</ul></ul>
+        <ul>else:<br></ul>
+        <ul><ul>if(b>c):<br></ul></ul>
+        <ul><ul><ul>print("b is greatest")</ul></ul></ul></ul>
+        <ul><ul>else:</ul></ul>
+        <ul><ul><ul>print("c is greatest")</ul></ul></ul>
+        <ul><b>O/P : <br>
+        Enter a value 9<br>
+        <ul>9</ul>
+        Enter b value 1<br>
+        <ul>1</ul>
+        Enter c value 8<br>
+        <ul>8</ul>
+        a is greatest</b></ul>
+        <br>
+        <h2><i><b>Iteration (or) Control Statement/Looping.<br></b></i></h2>
+        ====>*It allows a block of statement to be repeated as many times as long as the processor could support. This is generally called looping.<br>
+        ====>*A looping statement also influences the flow of control because it causes one or more statement or a block to be executed repeatedly.<br>
+        <ul><ul><ul><ul><ul><b>i. State.<br>
+            ii. while.<br>
+            iii. for<br>
+            iv. break.<br>
+            v. continue.<br>
+            vi. pass.<br>
+        </b></ul></ul></ul></ul></ul>
+        <b><i><font size="5"><u>1. State</font></u></i></b><br>
+        <br>
+        ====>*Transition from one process to another process under specified condition with in a type is called state.<br>
+        <b>E.g :<br></b>
+        L1=[1,2,3,4] Reverse (L1)<br>
+        <table border="1" align="center">
+            <tr>
+                <th><b>List</b></th>
+                <th><b>Result</b></th>
+            </tr>
+            <tr>
+                <td>[,2,3,4]</td>
+                <td>[]</td>
+            </tr>
+            <tr>
+                <td>[2,3,4]</td>
+                <td>[1]</td>
+            </tr>
+            <tr>
+                <td>[3,4]</td>
+                <td>[2,1]</td>
+            </tr>
+            <tr>
+                <td>[4]</td>
+                <td>[3,2,1]</td>
+            </tr>
+            <tr>
+                <td>[]</td>
+                <td>[4,3,2,1]</td>
+            </tr>
+        </table>
+        <b><i><font size="5"><u>2. while</font></u></i></b><br>
+        <br>
+        ====>*The condition is tested before any of the statements is executed.<br>
+        ====>*If the condition is true then the statement will be executed.<br>
+        ====>*If the condition is false. The control jump outline the loop.<br>
+        <br>
+        <b>Syntax :<br></b>
+        <br>
+        <center><img src="is1.PNG" width="50%" height="50%"></center>
+        <br>
+        <b>Flow Chart :<br></b>
+        <img src="if1.PNG" width="80%" height="90%">
+        <br>
+        <b>E.g :<br></b>
+        n=int(input("Enter a value : "))<br>
+        sum=0<br>
+        i=1<br>
+        while(i<=n):<br>
+        <ul>sum=sum+1<br>
+            i=i+1<br>
+        </ul>
+        print(sum)<br>
+        <br>
+        <b><i><font size="5"><u>3. For Loop</font></u></i></b><br>
+        <br>
+        ====>For i in sequence : <br>
+        *It is used to iterate over a sequence list,tuple,string.<br>
+        *Iterating over a sequence is called traversal.<br>
+        *Loop continue until we reach least element.<br>
+        *The body of for loop is seperated from the rest of the code using indentation.<br>
+        <br>
+        ====>For i in range : <br>
+        *We generate a sequence of numbers using range function.<br>
+        <br>
+        <b>Syntax : <br></b>
+        <br>
+        <center><img src="is2.PNG" width="50%" height="50%"></center>
+        <br>
+        <b>Flow Chart : <br></b>
+        <br>
+        <center><img src="if2.PNG" width="70%" height="80%"></center>
+        <br>
+        <b>E.g :<br></b>
+        Fibonacci series(0,1)<br>
+        a=0<br>
+        b=1<br>
+        n=int(input("Enter the term : "))<br>
+        print("Fibonacci series")<br>
+        for i in range (1,n)<br>
+        c=a+b<br>
+        a=b<br>
+        b=c<br>
+        <br>
+        <b><i><font size="5"><u>4. Break</font></u></i></b><br>
+        <br>
+        ====>*Break statements can alter the flow of a loop.<br>
+        ====>*It terminates the current.<br>
+        ====>*Loop and executes, the remaining statements outside the loop.<br>
+        <br>
+        <b>Syntax :<br></b>
+        <br>
+        <center><img src="is3.PNG" width="50%" height="50%"></center>
+        <br>
+        <b>Flow Chart :<br></b>
+        <br>
+        <center><img src="if3.PNG" width="70%" height="80%"></center>
+        <br>
+        <b>E.g :<br></b>
+        for i in "Welcome":<br>
+        <ul>if i=="c"</ul>
+        <ul><ul>break</ul></ul>
+        <ul>print i</ul>
+        <br>
+        <b>O/P : <br>
+        <ul>W<br>
+        e<br>
+        l<br></ul></b>
+        <br>
+        <b><i><font size="5"><u>5. continue</font></u></i></b><br>
+        <br>
+        ====>*The continue statement is used to skip the remaining part of the statements in the current loop and start with the next iteration of the loop.<br>
+        ====>*That means it will help to skip a part of the loop.<br>
+        <br>
+        <b>Syntax :<br></b>
+        <br>
+        <center><img src="is4.PNG" width="50%" height="50%"></center>
+        <br>
+        <b>Flow Chart :<br></b>
+        <br>
+        <center><img src="if44.PNG" width="70%" height="80%"></center>
+        <br>
+        <b>E.g : <br>
+        <ul>num=10<br>
+        while num>0
+        <ul>print 'Current value : ',num<br>
+        if num==5:</ul>
+        <ul><ul>continue</ul></ul></ul></b>
+        <b><i><font size="5"><u>6. Pass</font></u></i></b><br>
+        <br>
+        ====>*It is used to construct a body that does nothing.<br>
+        ====>*In python programming, pass is a null statement. It does nothing when pass is executed. It result into 'no option' (NOP).<br>
+        ====>*Pass statement can be used in 'if' clause as well as within loop construct, when you do not want any statements or commands within that block to be executed.<br>
+        <br>
+        <b>Syntax : <br></b>
+        <br>
+        <center><img src="is5.PNG" width="50%" height="50%"></center>
+        <br>
+        <b>Flow Chart :<br></b>
+        <br>
+        <center><img src="if44.PNG" width="70%" height="80%"></center>
+        <br> 
+        <b>E.g :<br>
+        <ul>for val in "computer":
+        <ul>if val=="t":</ul>
+        <ul><ul>pass</ul></ul>
+        <ul>else:</ul></ul>
+        <ul><ul><ul>print(val)</ul></ul></ul>
+        </ul></b>
+        <br>
+        <b>O/P :
+            <ul>
+                c<br>
+                o<br>
+                m<br>
+                p<br>
+                u<br>
+                e<br>
+                r<br>
+            </ul>
+        </b>
+        <br>
+        <b><i><font size="5"><u>operations on string :</font></u></i></b><br>
+        <br>
+        ====><b>Indexing :</b><br>
+        <ul>*Positive indexing helps in accessing the string from the beginning.<br>
+            *Negative indexing helps in accessing the string from the end.<br>
+        </ul>
+        <ul><ul>>>>a="HELLO"<br>
+                >>>print(a[0])<br>
+                >>>print(a[+])<br>
+                <ul><b>0</b></ul>
+            </ul>
+        </ul>
+        ====><b>Slicing :<br></b>
+        <ul>*The process of extracting a sub string from the strings is called slicing.<br></ul>
+        <ul><ul>>>>print([0:4])<br>
+                >>>print([ :3])<br>
+                >>>print([0: ])<br>
+            </ul>
+        </ul>
+        ====><b>Concatenation :<br></b>
+        <ul>*The <b>"+"</b> operator joins the text on both sides of the operator.<br></ul>
+        <ul><ul>>>>a="save"<br>
+                >>>b="Earth"<br>
+                >>>print(a+b)<br>
+                <ul>save Earth<br></ul>
+            </ul>
+        </ul>
+        ====><B>Repetition :<br></B>
+        <ul>*The <b>"*"</b> operators repeats the string in the left hand side time the value on right.<br></ul>
+        <ul><ul>>>>a="Python"<br>
+                >>>print(3*a)<br>
+                <ul>Python Python Python<br></ul>
+            </ul>
+        </ul>
+        ====><b>Membership :<br></b>
+        <ul>*To check a particular character is in string or not.<br></ul>
+        <ul><ul>>>>a="python"<br>
+                >>>"m" in a<br>
+                <ul><b>False</b></ul>
+                >>>"y" in a<br>
+                <ul><b>True</b></ul>
+                >>>"m" not in a<br>
+                <ul><b>True</b></ul>
+            </ul>
+        </ul>
+        <h2><i><u><b>String built in function and method.</b><br></u></i></h2>
+        *A method is a function that belongs to an object.<br>
+        <b>E.g :<br></b>
+        <br>
+        <b>a="Python programming"</b><br>
+        <br>
+        <img src="fun1.PNG" width="100%" height="500%">
+        <br>
+    </p1> 
+    <h1><center><b><i><font color="blue">---*****Chapter -3 is over*****---</h1></font></i></center>
+</body>
+</html>

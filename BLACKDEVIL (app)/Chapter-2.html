@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probem solving and Python programming [Chapter-2]</title>
+</head>
+<body>
+    <center><a href="index.html"><h2>===> HOME <===</h2></a></center>
+    <h1><b><i><u><font color="blue"><center>Chapter-2 <br>"Data Type, Expressions, Statements"</center></font></u></i></b></h1>
+    <h1><b><i><u><font color="green"><center>"Python Interpreter and Interactive Mode"</center></font></u></i></b></h1>
+    *Python is a general purpose interpreted interactive object oriented and igh level programming language.<br>
+    *It was developed by <b>guido van rossum</b> during <b>1985-1990</b> and <b>released on 1991.</b><br>
+    *It's named from "monty python's flying circus", python as a large snake.<br>
+    <ul><b>Modes of python:</b><br>
+    <ul>===> Python interpreter / script mode.<br>
+        ===> Python interactive mode.<br></ul></ul>
+    <b><i><u>Python interpreter / Script mode:<br></u></i></b>
+    <br>
+    *It is the interpreter / script mode a python program (script) is written in a file, where file has extension <b>".py"</b>.<br>
+    *The python script is executed by the python Interpreter.<br>
+    *Once the script is created, it can be executed again and again without retyping.<br>
+    <b>Eg:</b><br>
+    <ul>Enter 2 numbers<br>
+        <ul>6<br>
+        3<br></ul>
+        sum is 9<br></ul>
+    <br>
+    <b><i><u>Python Interactive mode: <br></u></i></b>
+    <br>
+    *It allows the user to work in an interactive mode.<br>
+    *It is a way of using the python commands from the comman line with on script.<br>
+    *This allows the user to type an expression and immediately the expression is executed and the result is printed.<br>
+    <ul>>>>5+7<br>
+        <ul>12</ul><br>
+        >>>print ("Hello world")<br>
+        <ul>Hello world</ul>
+    </ul>
+    <b><i><u>Debugging:<br></u></i></b>
+    <br>
+    *A programmer can make mistake which writing a program and hence the program may not execute or may generate wrong output.<br>
+    *The process of identifying and removing such mistakes also know as bugs or errors from the program is called debugging.<br>
+    <br>
+    <b><i><u>Three Kinds of Errors : <br></u></i></b>
+    <br>
+    ----> Syntax Errors.<br>
+    <br>
+    *Python has its own side that determine its syntax the interpreter the Statements only if it is syntacting correct otherwise shows error message and stops execution.<br>
+    <ul>>>>(20+26)<br>
+        >>>(77+35)</ul>
+    <br>
+    <b><i><u>Logical Errors : <br></u></i></b>
+    <br>
+    *A logiacl error produces an underised output.<br>
+    *but without abript termination of the execution of the program it produces wrong output.<br>
+    <br>
+    <b><u><I>Runtime Errors : <br></I></u></b>
+    <br>
+    *It cause obnormal termination of program whcih its executing.<br>
+    <ul>>>>10/0 [divided by zero]</ul>
+    <b><i><u>Values and Datattypes : <br></u></i></b>
+    <br>
+    *x values are the basic units of data like a number or a string that a program manipulates.<br>
+    <ul>E.g : <br>
+        2.4.2.0 and "Hello world"<br></ul>
+    *These values belong to different data types.<br>
+    <ul>2 - integer<br>
+        42.0 - float<br>
+        "Hello world" - string<br></ul>
+    <b><u><i>Data Types : <br></i></u></b>
+    <br>
+    *Every value belongs to a specific data type in python.<br>
+    *Data type identifies the type of data values a variable can hold and the operations that can be performed on that data.<br>
+    <ul>*Integer.<br>
+        *Float.<br>
+        *Complex.<br>
+        *Boolean.<br>
+        *String.<br>
+        *List.<br>
+        *Tuple.<br>
+        *Dictionary.<br></ul>
+    <b><i>1. Integer.<br></i></b>
+    *An integer type (int) represents signed which numbers.<br>
+    *It represents both positive and negative numbers.<br>
+    <ul><b>(E.g:) : -2,-1,0,1,2,3,....</b><br>
+    <ul>>>>a=4<br>
+        >>>print(a)<br>
+        <ul>4</ul>
+        >>>type(a)<br>
+        <ul>(type 'int')</ul>
+    </ul></ul>
+    <b><i><u>2. Floating : <br></u></i></b>
+    <br>
+    *It represents numbers with fractional part A Floating point number has a decimal point and a fractional.<br>
+    <ul><b>(E.g:) : -2.0,-1.0,0.0,1.0,2.0,....</b><br>
+    <ul>>>>a=4.1<br>
+        >>>print(a)<br>
+        <ul>4.1</ul>
+        >>>type(a)<br>
+        <ul>(type 'float')</ul>
+    </ul></ul>
+    <b><i><u>3. Complex : <br></u></i></b>
+    <bR>
+    *It's an immutable type that holds a pair of floats.<br>
+    *one representing the real part and another representing the imaginary part.<br>
+    <ul><b>(E.g:) : 5+14i</b><br>
+        >>>z=5+14i<br>
+        >>>z.real<br>
+        >>>print(real)<br>
+        <ul>5</ul>
+        >>>z.imag<br>
+        >>>print(imag)<br>
+        <ul>14</ul>
+    </ul>
+    <b><u><i>4. Boolean : <br></i></u></b>
+    <br>
+    *Boolean type represent special values <b>True</b> and <b>False</b> they are represented as <b>one and zero</b> boolean value is produced with a relational operator.<br>
+    <ul><b>(E.g:) : <br></b>
+        >>>bool(1)<br>
+        <ul>True</ul>
+        >>>bool(0)<br>
+        <ul>False</ul>
+    </ul>
+    <b><u><i>5. String : <br></i></u></b>
+    <br>
+    *A string is an ordered sequance of characters which can be created by enclosing characters in single quotes or doubles quotes.<br>
+    <ul>'HELLO'<BR>
+        "HELLO"<BR>
+        ""Hello Every one <br>
+            wekcome to python programming""<br>
+        >>>a="Hello"<br>
+        >>>type(a)<br>
+        <ul>(type 'str')</ul>
+    </ul>
+    <b><i><u>6. List : <br></u></i></b>
+    <br>
+    *List is a sequance data type.<br>
+    *List is a sequance of items seperated by common and the items are enclosed in square brackets [].<br>
+    *The sequance of values can be of any types.<br>
+    *The values in a list are calles elements or items.<br>
+    <ul><b>(E.g:)</b><br>>>>Address=['235','xxxxx','yyyyy']<br>
+        >>>print (Address)<br>
+        <ul>['235','xxxxx','yyyyy']<br></ul>
+        >>>type([1,2,3])<br>
+        <ul>('class list')</ul>
+    </ul>
+    <b><u><i>7. Tuples : <br></i></u></b>
+    <br>
+    *A tuple is a another sequance data type similar to list.<br>
+    *A tuple consist a sequance of a items seperated by a commas and items are enclosed in parenthesis ().<br>
+    <ul><b>(E.g:)</b><br>
+        >>>T=('sun','mon','tue')<br>
+        >>>print T<br>
+        <ul>('sun','mon','tue')<br></ul>
+    </ul>
+    <b><i><u>8. Dictionary : <br></u></i></b>
+    *It are unordered collection of items.<br>
+    *It are enclosed by curly braces '{}'.<br>
+    *The values of a Dictionary can be accessed by a key.<br>
+    <ul><b>(E.g:)</b>
+        >>>dict 1={1:10;2:20;3:30}<br>
+        >>>print (dixt 1)<br>
+        <ul>{1:10;2:20;3:30}</ul>
+        >>>print (dixt1.key())<br>
+        <ul>([1,2,3])</ul>
+    </ul>
+        <b><u>Variables : </u></b><br>
+        <br>
+        *A variable is an identifier, which holds a value.<br>
+        *In programming, a value is assigned to a variable.<br>
+        <br>
+        <b><i>Rules : </i></b><br>
+        <ul>1. variable names can be uppercase letters/lower case letters.<br>
+            2. Variables name can be any length.<br>
+            3. They can contain both letters and numbers, but thry can't begin with a number.<br>
+            4. The underscore (_) character can appear in a name with multiple words.<br>
+            5. No blank spaces are allowed.<br>
+            6. Variable can't be any one keyword or special character.<br>
+            7. variablenames are case sensitive.<br>
+            <ul>(E.g:) Roll_no</ul>
+        </ul>
+        <b><i><u>Variable-Identifier<br></u></i></b>
+        <i><b>Expression: </b></i><br>
+        <br>
+        *An expression is an combination of values, variables and operators.<br>
+        *A value by itself is considered as an expression.<br>
+        *It consists of a combination of operators and operands.<br>
+        <ul>(E.g) : <br>
+        <ul>5+(2*k)<br>
+            <ul>+,* - <b>operators</b><br>
+            K -<b>Variables<br></b>
+            5,8 - <b>Value</b><br></ul></ul>
+        </ul>
+        <b>Types : </b> [Based on position of seperators]<br>
+        <Br>
+        *Based on the position of operators in an expression.<br>
+        <b><i>i). Infix expression : </i></b><br>
+        <br>
+        The operator is placed in between the operands.<br>
+        <ul>a=b+b</ul><br>
+        <b><i>ii). Prefix expression : <br></i></b>
+        <br>
+        The operator is placed before the operands.<br>
+        <ul>a=+bc</ul><br>
+        <b><i>iii). Postfix expression : </i></b><br>
+        <br>
+        The operator is placed after the operands.<br>
+        <ul>a=bc+</ul>
+        <b><i><u>Based on the type of result obtained.</u><br></i></b>
+        Based on the type of result obtained by evoluating an expression.<br>
+        <ul><b>1. Arithmetic Expression : </b>
+        <ul>This type of expression just do mathametical operation like +,-,/,*,etc..<br>
+        <br>
+            <ul>>>>n1=20<br>
+            >>>n2=30<br>
+            >>>sum=n1+n2<br>
+            >>>print('The value of sum is',sum)</ul>
+        </ul></ul>
+        <ul><b>2. Relational/Conditional expression : </b>
+        <ul>This expression compares two statements using relational operators like <b>>,<,>=,<=.</b><br>
+        (E.g) : <br>
+        <ul>a=input('Enter First number')<br>
+            b=input('Enter Second number')<br>
+            flag=(a>b)<br>
+            print('Is % i greater that %i,%s',a,b,False)<br>
+            <br>
+            <b><i><u>Output</u></i></b><br>
+            <br>
+            Enter First number 20<br>
+            Enter Second number 40<br>
+            Is 20 greater than 40 : false<br></ul>
+        </ul></ul>
+        <ul><b>3. Logical Expression : </b><br>
+        <ul>*The logiacl expression uses the logiacl operators like <b>and,or,or not.</b><br>
+        *The logiacl expression also produces a boolean result, true or false.<br>
+        <b>(E.g) : </b><br>
+        <ul>>>>a=10<br>
+            >>>b=30<br>
+            >>>c=33B<br>
+            >>>d=21<br>
+            >>>z=((a>b) and (c>d))<br>
+            >>>print z<br>
+            <ul>false</ul>
+            >>>z=((a>b) or (c>d))<br>
+            >>>print z<br>
+            <ul>True</ul>
+        </ul></ul></ul></ul>
+        <ul><b>4. Conditional Expression : </b><br>
+        <ul>*The Conditional expression is also called rational expression.<bR>
+        *This expression is used with branching (if,if else) etc.., and looping (while,for,do while).<br>
+        *It produces two result either true (or) false.<br></ul>
+        </ul>
+        <b><i><u>Statements : <br></u></i></b>
+        *A statement is an instruction that the python interpreter can execute.<br>
+        *There are two kinds of statements : assignment (=) and print.<br>
+        <br>
+        <ul>1. <b>Assignment statement : </b></ul>
+        An assignment statement assoxiates the name to the left of the '=' symbol with the object denoted by the expression to the right of the '=' symbol.<br>
+        <ul>E.g:<br>
+            >>>Name='xxxx'<br>
+            >>>Age=9<br><ul>
+        </ul></ul>
+        After an assignment, the values stored in the variable 'Name' and 'Age' are remembered.<br>
+        <ul>E.g:<br>
+            >>>Name<br>
+            <ul>xxxxx</ul><br>
+            >>>Age+2<br>
+            <ul>11</ul>
+        </ul></ul>
+        <ul>2. <b>Simultaneous Assignment statement : <br></b></ul>
+        *Python permits any number of variables to appear on the left side, seperated by commas.<br>
+        *The same number of expressions must then appear on the right side, again separated by commas.<br>
+        <ul>E.g:<br>
+            <ul>>>>x=10<br>
+                >>>y=5<br>
+                >>>sum,diff,prod=x+y,x-y,x*y<br>
+                >>>sum<br>
+                <ul>15</ul>
+                >>>diff<br>
+                <ul>5</ul>
+                >>>prod<br>
+                <ul>50</ul></ul>
+            </ul>
+        </ul></ul>
+        <ul>3. <b>Print statement : </b></ul>
+        *The print statement takes a series of values separated by commas.<br>
+        *Each value is converted into a string (by implicitly invoking the string function) and then printed.<br>
+        (E.g) : <br>
+        <ul>>>>name=intput("enter your name : ")<br>
+        <ul>enter your name : yyyy<br></ul>
+            >>>print ('Hello','name','!')<br>
+        <ul>Hello yyyy!</ul>
+        </ul></ul>
+        <h1><center><b><i><font color="blue">---*****Chapter -2 is over*****---</h1></font></i></center>
+</body>
+</html>
